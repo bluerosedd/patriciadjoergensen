@@ -1,0 +1,480 @@
+/* Global CSS */
+
+body { background-color:#eee; padding:0; margin:0;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    width: 980px;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+/* Controlling the slide effect */
+
+#menu {
+
+}
+
+#menu.active {
+
+}
+
+.menu-link {
+
+}
+
+.container {
+
+}
+
+.container.active {
+
+}
+
+/* Slider effect - save for last and will be shown in class */
+
+
+/* Styling */
+
+/* MENU - Global */
+
+li.current, li.current a, li.current a:active {  }
+
+a {
+
+  }
+
+ul { 
+
+}
+
+
+#transparent_layer { height:25px; background-color:transparent; width:35px; position:relative; top:-10px } /*Click area for invisible field for mobile menu*/
+
+#menu-link-icon, #menu-link-icon:after, #menu-link-icon:before {
+     position:absolute;
+     width:35px;
+     height:5px;
+     background:black;
+     border-radius:20px;
+}
+#menu-link-icon {
+     display:block;
+     text-indent:-999em;
+     top:25px;
+}
+#menu-link-icon:after, #menu-link-icon:before {
+     content:"\00a0";
+     left:0;
+}
+#menu-link-icon:before {
+     top:-10px;
+}
+#menu-link-icon:after {
+     top:10px;
+}
+
+/* MENU - Desktop */
+
+#desktop_menu {
+}
+#desktop_menu ul {
+}
+#desktop_menu li {
+}
+#desktop_menu li a {
+}
+#desktop_menu li + li {
+}
+
+
+/* MENU - mobile */
+
+nav#menu { }
+nav#menu ul { }
+nav#menu li {  }
+nav#menu li a {   }
+nav#menu li:hover {  }
+nav#menu li a:hover, #desktop_menu li a:hover {   }
+nav#menu li a:active, #desktop_menu li a:active {  }
+
+/* Top area CSS */
+
+.top { background-color: #373c3f;
+    width:100%;
+    height:97px;
+    float:left; }
+
+/* Banner area CSS */
+
+#bholder {
+    margin-top:190px;
+    margin-right: 0;
+    padding: 0;
+    margin-left: 8%;
+    max-width: 92%;
+}
+
+#bholder .container {
+    max-width: 68%;
+    float:left;
+    display:inline-block;
+    padding-right: 20%;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.banner h2 {
+    font-family:montserrat, sans-serif;
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.banner h3 {
+    font-family:montserrat, sans-serif;
+    color: #A5D2DC;
+    font-size: 35px;
+    max-width: 60%;
+    padding-top: 60px;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#harrow {
+    margin-top:52px;
+}
+
+#banner_click {   }
+.banner {
+    /*background-color: #0992aa;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#16b2c4+0,078aa4+100 */
+    background: #16b2c4; /* Old browsers */
+    background: -moz-linear-gradient(left,  #16b2c4 0%, #078aa4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #16b2c4 0%,#078aa4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #16b2c4 0%,#078aa4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16b2c4', endColorstr='#078aa4',GradientType=1 ); /* IE6-9 */
+
+    width: 100%;
+    height: 549px;
+    float:left;
+}
+
+/* Info area CSS */
+
+.info_box {
+    width:100%;
+    height:250px;
+    float:left;
+}
+.info_left {
+    background-color: #373c3f;
+    width:75%;
+    height:250px;
+    float:left;
+}
+
+.info_left_text p {
+
+    font-family:montserrat, sans-serif;
+    display: table-cell;
+    float:left;
+    max-width:100%;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+    left: 8%;
+}
+
+.info_right {
+    background-color: #bc3183;
+    width:25%;
+    height:250px;
+    float:left;
+}
+.info_right h2 {
+     font-family:montserrat, sans-serif;
+     display: table-cell;
+     float:left;
+     max-width:100%;
+     margin: 0;
+     color: white;
+     font-size: 50px;
+     position: relative;
+     top: 40%;
+     left: 40%;
+ }
+
+/* Three_box area CSS */
+
+.three_box {
+    width:100%;
+    float:left;
+    height:224px;
+}
+
+.three_left {
+    background-color:#5b0fa1;
+    width:34%;
+    height:224px;
+    float:left;
+}
+.three_left h2 {
+    font-family:montserrat, sans-serif;
+    display: table-cell;
+    float:left;
+    max-width:100%;
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 37%;
+    left: 46%;
+}
+.three_mid {
+    background-color:#000000;
+    width: 33%;
+    height:224px;
+    float:left;
+}
+.three_mid img {
+    max-height: 100%;
+    width: 100%;
+}
+
+.three_right {
+    background-color:#0f0f0f;
+    width:33%;
+    height:224px;
+    float:left;
+}
+.three_right img {
+    max-height: 100%;
+    width: 100%;
+}
+
+/* Footer area CSS */
+
+.footer {
+    background-color:#ebebeb;
+    width:100%;
+    height:550px;
+    float:left;
+}
+.footer_text {
+
+}
+
+.footer h2 {
+    font-family:montserrat, sans-serif;
+    color: #088CA5;
+    font-size: 35px;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+.footer p {
+    float:left;
+    text-size: 14px;
+    ont-family:montserrat, sans-serif;
+    color: #515151;
+}
+
+.footer_text div {
+    float:left;
+    max-width: 370px;
+    margin-left: 8%;
+
+}
+
+/* Media Query section */ 
+@media all and (max-width: 680px) {
+
+    body {
+        width: 640px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+   
+    .top  { background-color: #373c3f;
+        width:100%;
+        height:74px;
+        float:left;  }
+   
+    #menu {  }
+    nav#desktop_menu {   }
+    #bholder {
+        margin-top:17%;
+        margin-right: 0;
+        padding: 0;
+        margin-left: 8%;
+        max-width: 92%;
+    }
+
+    #bholder .container {
+        max-width: 68%;
+        float:left;
+        display:inline-block;
+        padding-right: 20%;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+
+    .banner h2 {
+        font-family:montserrat, sans-serif;
+        color: #FFFFFF;
+        font-size: 35px;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .banner h3 {
+        font-family:montserrat, sans-serif;
+        color: #A5D2DC;
+        font-size: 25px;
+        max-width: 60%;
+        padding-top: 60px;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #harrow {
+        margin-top:52px;
+    }
+
+    .banner {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#16b2c4+0,078aa4+100 */
+        background: #16b2c4; /* Old browsers */
+        background: -moz-linear-gradient(left,  #16b2c4 0%, #078aa4 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #16b2c4 0%,#078aa4 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #16b2c4 0%,#078aa4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16b2c4', endColorstr='#078aa4',GradientType=1 ); /* IE6-9 */
+        width: 100%;
+        height: 348px;
+        float:left;
+    }
+
+    .info_box, .info_left, .info_right {
+        width:100%;
+        height:150px;
+        float:left;
+    }
+    .info_left {
+        background-color: #373c3f;
+        width:75%;
+        height:150px;
+        float:left;
+    }
+    .info_left_text p {
+
+        font-family:montserrat, sans-serif;
+        display: table-cell;
+        float:left;
+        max-width:100%;
+        margin: 0;
+        color: white;
+        font-size: 23px;
+        position: relative;
+        top: 63px;
+        left: 8%;
+    }
+    .info_right {
+        background-color: #bc3183;
+        width:25%;
+        height:150px;
+        float:left;
+    }
+    .info_right h2 {
+        font-family:montserrat, sans-serif;
+        display: table-cell;
+        float:left;
+        max-width:100%;
+        margin: 0;
+        color: white;
+        font-size: 50px;
+        position: relative;
+        top: 33.3%;
+        left: 40%;
+    }
+
+
+
+    .three_box{
+        width:100%;
+        height:1650px;
+        float:left;
+
+    }
+    
+    .three_left {
+        background-color:#5b0fa1;
+        width:100%;
+        height:550px;
+        float:left;
+    }
+    .three_left h2 {
+        font-family: montserrat, sans-serif;
+        display: table-cell;
+        float: left;
+        max-width: 100%;
+        margin: 0;
+        color: white;
+        font-size: 75px;
+        position: relative;
+        top: 43%;
+        left: 46%;
+    }
+    .three_mid {
+        background-color:#000000;
+        width:100%;
+        height:550px;
+        float:left;
+    }
+
+    .three_right {
+        background-color:#0f0f0f;
+        width:100%;
+        height:550px;
+        float:left;
+    }
+
+    .footer {
+        background-color:#ebebeb;
+        width:100%;
+        height:550px;
+        float:left;
+    }
+
+    .footer h2 {
+        font-family:montserrat, sans-serif;
+        color: #088CA5;
+        font-size: 35px;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+    .footer p {
+        float:left;
+        text-size: 14px;
+        ont-family:montserrat, sans-serif;
+        color: #515151;
+    }
+
+    .footer_text div {
+        float:left;
+        max-width: 370px;
+        margin-left: 8%;
+
+    }
+
+}
+
